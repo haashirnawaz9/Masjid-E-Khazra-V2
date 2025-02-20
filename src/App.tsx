@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer';
@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import PrayerTimes from './pages/PrayerTimes';
 import About from './pages/About';
 import Donate from './pages/Donate';
+
 
 function App() {
   return (

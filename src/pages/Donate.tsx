@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 import { DollarSign, Heart } from 'lucide-react';
+import { redirect } from 'react-router-dom';
 
 // Initialize Stripe
 const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLIC_KEY);
@@ -49,6 +50,10 @@ const Donate = () => {
     }
   };
 
+  const zellepayment = () => {
+    window.location.href = 'https://www.zellepay.com'
+  }
+
   return (
     <div className="min-h-screen bg-gray-50 py-12">
       <div className="container mx-auto px-4">
@@ -59,6 +64,8 @@ const Donate = () => {
             <p className="text-xl text-gray-600">
               Your generous donations help us maintain our services and support our community
             </p>
+            <p className="p-3 text-red-900">Unfortunatly stripe payments is not working right now. If possible, please donate using zelle. Our Zelle is <span className="font-bold">masjidkhazrany@gmail.com</span></p>
+            <button onClick={zellepayment} className="bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out mt-3">Donate to Zelle</button>
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-8">
