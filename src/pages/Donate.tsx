@@ -65,7 +65,7 @@ const Donate = () => {
               Your generous donations help us maintain our services and support our community
             </p>
             <p className="p-3 text-red-900">Unfortunatly stripe payments is not working right now. If possible, please donate using zelle. Our Zelle is <span className="font-bold">masjidkhazrany@gmail.com</span></p>
-            <button onClick={zellepayment} className="bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out mt-3">Donate to Zelle</button>
+            <button onClick={zellepayment} className="bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out mt-3">Donate Using Zelle</button>
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-8">
