@@ -16,10 +16,10 @@ const Home = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-        <div className="relative h-[650px] bg-cover bg-center bg-fixed sm:bg-contain" style={{
+        <div className="relative h-[670px] bg-center bg-cover" style={{
           backgroundImage: 'url("https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&q=80&w=1920")',
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: 'center'
         }}>
 
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/40 flex items-center justify-center">
