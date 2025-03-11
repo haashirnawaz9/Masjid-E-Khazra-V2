@@ -31,7 +31,7 @@ const Home = () => {
 
             <h1 className="text-xl md:text-2xl font-bold mb-1">Welcome to the officlal Website of</h1>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Masjid-e-Khazra</h1>
-            <p className="text-xl md:text-2xl mb-10 max-w-2xl mx-auto">Serving the Muslim Community in Flushing, New York</p>
+            <p className="text-xl md:text-2xl mb-10 max-w-2xl mx-auto">Serving the Muslim Community in East Elmhurst, New York</p>
             <Link 
               to="/donate" 
               className="inline-flex items-center bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105"
