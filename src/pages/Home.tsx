@@ -16,7 +16,7 @@ const Home = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <div className="relative h-[650px] bg-cover bg-center bg-fixed md:bg-scroll" style={{
+      <div className="relative min-h-screen bg-cover bg-center bg-fixed" style={{
         backgroundImage: 'url("https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&q=80&w=1920")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
